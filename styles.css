@@ -1,3 +1,4 @@
+  /* Global CSS Selectors */
 body {
     background-color: #DDFFF7;
     padding: 0;
@@ -9,13 +10,9 @@ h2,
 h3,
 h4, a {
   font-family: "Oswald", sans-serif;
-}
-
-.container {
-    height: 100%;
-    border: black solid 2px;
-    padding: 20px 20px 50px 20px;
-
+    text-align: center
+    
+  
 }
 h2 {
    font-size: 40px; 
@@ -30,8 +27,15 @@ p {
 ul,ol {
   font-size: 25px;
 } 
+
 li {
     margin-top: 20px;
+}
+.container {
+    height: 100%;
+    border: #DDFFF7 solid 2px;
+    padding: 20px 20px 50px 20px;
+   
 }
 
 /* Navigation Bar */
@@ -80,7 +84,6 @@ li {
     font-size: 30px;
     padding: 20px;
 }
-
 /* Learn More Page  */
 
 #learn-more-landing {
@@ -97,6 +100,13 @@ li {
    
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* People Impacted Page */
 
 #people-impacted-landing {
@@ -111,6 +121,11 @@ li {
    color: black;
    text-shadow: 5px 5px 5px white;
    font-size:100px;
+}
+.voter-supression{
+    text-align: center;
+    background-color: #90E0D5;
+     
 }
 
 /* Resources Page */
@@ -130,7 +145,6 @@ li {
 }
 
 /* About the Developer Page  */
-
 #about-the-developer {
     height: 60vh;
     background-image: url('https://theracquet.org/wp-content/uploads/2020/04/women-of-color-900x675.png');
@@ -143,4 +157,102 @@ li {
    color: #DDFFF7;
    text-shadow: 5px 5px 5px #93E1D8;
    font-size:100px;
+}
+#seneca {
+    text-align: center;
+    background-color:#93E1D8;
+}
+#seneca h2 {
+    color:white;
+}
+#seneca p {
+    color:white;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr''
+}
+
+.grid-container h2 {
+    grid-area: 1/1/2/4;
+    background-color: #FFA69E;
+    color:white;
+    margin: 0 auto;
+    width:100vw;
+    text-align: center;
+}
+
+.grid-item {
+    padding-top: 30%;
+    grid-row:2/5;
+    text-align: center;
+    height: 40vh;
+}
+.grid-item h3 {
+    color:white;
+    background-color: #AA4465;
+    font-size: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.grid-item a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #DDFFF7;
+    background-color: #AA4465;
+    border-radius: 5%;
+    border: white;
+}
+.grid-item a:hover {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    color: red;
+    background-color: #DDFFF7;
+    border-radius: 8%;
+    border: #93E1D8;
+    transition: 1s;
+}
+#biking {
+    background-image: url('https://i.pinimg.com/originals/40/60/2c/40602c625b5241e88ac6bf123aece627.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    grid-column:1/2;
+}
+#drawing {
+    background-image: url('https://image.freepik.com/free-vector/artist-work-flat-design_52683-21565.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column:2/3;
+}
+#sewing {
+    background-image: url('https://img.freepik.com/free-vector/seamstress-concept-illustration_114360-3087.jpg?size=338&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column:3/4;
+}
+#emulator {
+    background-image: url('https://www.vizzed.com/boards/userimages/userpics/48448-1350915236.jpg');
+    background-size: cover;
+    background-position:center;
+    grid-column:1/2;
+}
+#Spofity {
+    background-image: url("https://www.benlcollins.com/wp-content/uploads/2016/01/spotify.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column:2/3;
+}
+#pintrest {
+    background-image: url('https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Emblem.png');
+    background-size: cover;
+    background-position: center;
+    grid-column:3/4;
 }
