@@ -12,6 +12,29 @@ h4, a {
 
 }
 
+/* Navigation Bar */
+.nav-container {
+  height: 8vh;
+  background-color:#93E1D8;
+  padding: 20px;
+}
+.nav-container h4 {
+  display:inline;
+  color:#DDFFF7;
+  font-size:20px;
+}
+
+#nav {
+  float:right;
+}
+
+#nav a {
+  color: #DDFFF7;
+  text-decoration: none;
+  padding: 20px 10px 0 10px;
+  font-size: 20px;
+}
+
 /* Home Page  */
 #home-landing {
     height: 92vh;
